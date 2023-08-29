@@ -1,0 +1,55 @@
+#sidebar {
+    background-color: aquamarine;
+    height: 100%;
+    float: left;
+    width: fit-content;
+    text-align: center;
+    padding: 0px 6px;
+    border-radius: 5px;
+    margin-bottom: -80px;
+    padding-bottom: 80px;
+}
+
+#sidebar img {
+    margin-top: 10px;
+    width: 70px;
+    height: 60px;
+}
+
+#icon {
+    background-color: rgb(104, 201, 169); 
+}
+
+.link-page {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-page > div {
+    margin-top: 40px;
+}
+
+a > img:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0);}
+    50% { transform: rotate(.5turn); }   
+    100% {transform: rotate(1turn);}
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-content div {
+    margin-bottom: 10px;
+}
