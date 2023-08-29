@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from 'react-router-dom';
 import App from "./App.jsx";
@@ -10,21 +10,21 @@ import AboutPage from './Components/Page/aboutPage.jsx';
 import ProjectPage from './Components/Page/projectPage.jsx';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/my-portfolio/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: '/my-portfolio/',
+        path: "/",
         element: <HomePage />
       },
       {
-        path: '/my-portfolio/about',
+        path: "/about",
         element: <AboutPage />
       },
       {
-        path: '/my-portfolio/project',
+        path: "/project",
         element: <ProjectPage />
       },
     ],

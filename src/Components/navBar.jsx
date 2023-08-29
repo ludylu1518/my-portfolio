@@ -11,23 +11,23 @@ function navBar() {
         <>
            <div id='sidebar'>
                 <div>
-                    <a href='/my-portfolio/'>
+                    <a href='/'>
                         <img id='icon' src={Icon} alt='icon'></img>
                     </a>
                 </div>
                 <div className='link-page'>
                     <div>
-                        <a href='/my-portfolio/'>
+                        <a href='/'>
                             <img src={homeIcon} alt='home'></img>
                         </a>
                     </div>
                     <div>
-                        <a href='/my-portfolio/about'>
+                        <a href='/my-portfolio/#/about'>
                             <img src={aboutIcon} alt='about'></img>
                         </a>
                     </div>
                     <div>
-                        <a href='/my-portfolio/project'>
+                        <a href='/my-portfolio/#/project'>
                             <img src={projectIcon} alt='projects'></img>
                         </a>
                     </div>
