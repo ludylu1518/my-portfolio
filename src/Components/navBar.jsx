@@ -11,13 +11,13 @@ function navBar() {
         <>
            <div id='sidebar'>
                 <div>
-                    <a href='/'>
+                    <a href='/my-portfolio'>
                         <img id='icon' src={Icon} alt='icon'></img>
                     </a>
                 </div>
                 <div className='link-page'>
                     <div>
-                        <a href='/'>
+                        <a href='/my-portfolio'>
                             <img src={homeIcon} alt='home'></img>
                         </a>
                     </div>
