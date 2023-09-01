@@ -11,9 +11,7 @@ function navBar() {
         <>
            <div id='sidebar'>
                 <div>
-                    <a href='/my-portfolio'>
-                        <img id='icon' src={Icon} alt='icon'></img>
-                    </a>
+                    <img id='icon' src={Icon} alt='icon'></img>
                 </div>
                 <div className='link-page'>
                     <div>
@@ -37,8 +35,8 @@ function navBar() {
                     <div className='contacts-content'>
                         <div>(936) 727-0693</div>
                         <div>luzizhou6@gmail.com</div>
-                        <div><SocialIcon url="https://www.linkedin.com/in/zizhou-lu-101298221/" target='_blank' rel="noopener noreferrer" /></div>
-                        <div><SocialIcon url="https://github.com/ludylu1518" target='_blank' rel="noopener noreferrer"/></div>
+                        <div><SocialIcon className='social-icon' url="https://www.linkedin.com/in/zizhou-lu-101298221/" target='_blank' rel="noopener noreferrer" /></div>
+                        <div><SocialIcon className='social-icon' url="https://github.com/ludylu1518" target='_blank' rel="noopener noreferrer"/></div>
                     </div>
                 </div>
            </div>

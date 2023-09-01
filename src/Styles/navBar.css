@@ -6,18 +6,21 @@
     text-align: center;
     padding: 0px 6px;
     border-radius: 5px;
-    margin-bottom: -80px;
-    padding-bottom: 80px;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
 }
 
-#sidebar img {
+.link-page img {
     margin-top: 10px;
     width: 70px;
     height: 60px;
 }
 
 #icon {
+    width: 100px;
+    height: 90px;
     background-color: rgb(104, 201, 169); 
+    border-radius: 50%;
 }
 
 .link-page {
@@ -30,12 +33,12 @@
     margin-top: 40px;
 }
 
-a > img:hover {
-    animation: shake 1s;
+.link-page > div > a > img:hover {
+    animation: rotate 1s;
     animation-iteration-count: infinite;
 }
 
-@keyframes shake {
+@keyframes rotate {
     0% {transform: rotate(0);}
     50% { transform: rotate(.5turn); }   
     100% {transform: rotate(1turn);}
@@ -52,4 +55,16 @@ a > img:hover {
 
 .contacts-content div {
     margin-bottom: 10px;
+}
+
+.social-icon:hover {
+    animation: grow 1.2s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+    100% {
+        width: 60px;
+        height: 60px;
+    }
 }
